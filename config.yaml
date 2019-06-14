@@ -1,0 +1,3 @@
+uglyurls: true
+disableKinds: ["taxonomy","taxonomyTerm","sitemap"]
+

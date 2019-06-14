@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+{{ partial "menu.html" . }}
+
+<div id="page">
+
+{{ partial "sidebar.html" . }}
+
+{{ .Content }}
+
+	<div style="clear: both;">&nbsp;</div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,43 @@
+---
+layout: single
+title: kontaktní formulář
+description: Ing. Martin Sivak - lukostrelec; reportazni a portretni fotograf; icc profily a kalibrace barev pro CRT a LCD displeje, scannery, pripadne stolni RGB tiskarny.
+---
+  <div id="foto">
+          <img src="/images/MarSik.jpg" alt="Foto autora"/>
+  </div>
+
+
+
+	<div id="content">
+		<div class="post short">
+			<h1 class="title"><a href="#">Kontakt</a></h1>
+			<div class="entry">
+			<p>Pokud máte jakýkoliv dotaz k mým stránkam, fotografiím nebo službám, použijte prosím formulář na této stránce. Odpovím Vám hned jakmile to bude možné.</p>
+			</div>
+
+		</div>
+
+		<div class="post">
+			<h2 class="title">Odeslat dotaz</h2>
+			<div class="entry">
+                        <p>{{error}}</p>
+			    <form action="contact.php" method="post">
+				<h3>Předmět zprávy</h3>
+				<input type="text" name="subject" value="{{subject}}"/>
+				<h3>Váš email</h3>
+				<input type="text" name="email" value="{{email}}"/>
+				<h3>Kolik je tři a pět (odpovězte číslovkou)?</h3>
+				<input type="text" name="soucet" value="{{soucet}}"/>
+				<div class="spamcheck">
+				<h3>Je tato zpráva spam?</h3>
+				<input type="checkbox" class="check" name="nospam" value="1"/>
+				</div>
+				<h3>Text Vaší zprávy</h3>
+				<textarea name="text">{{text}}</textarea>
+				<input type="submit" value="Odeslat" name="submit"/>
+			    </form>
+			</div>
+		</div>
+
+	</div>

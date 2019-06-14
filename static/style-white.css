@@ -1,0 +1,314 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	background: #e9e9d9 url(images/img01.gif) repeat-x;
+	color: #666666;
+}
+
+h1, h2, h3 {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+form input, form textarea {
+	border: solid 1px #b9b9a9;
+	color: #666666;
+	background-color: #e9e9d9;
+}
+
+div.spamcheck {
+}
+
+form input.check {
+}
+
+form textarea {
+}
+
+p, ul, ol {
+}
+
+ul, ol {
+}
+
+a {
+	background: url(images/img05.gif) repeat-x left bottom;
+	color: #444444;
+}
+
+a:hover {
+	background: none;
+	color: #222222;
+	text-decoration: underline;
+}
+
+a#mainurl {
+	background: none;
+}
+
+em {
+    color: #444444;
+}
+
+/* Header */
+
+#header {
+}
+
+/* Logo */
+
+#logo {
+	/*float: left;*/
+}
+
+#logo h1 {
+	/* float: left; */
+}
+
+#logo h1 img {
+	background: none;
+}
+
+
+#logo p {
+	/* float: left; */
+	color: #e9e9d9;
+} 
+
+#logo a {
+	background: none;
+	color: #e9e9d9;
+}
+
+/* Search */
+
+#search {
+}
+
+#search form {
+	background: url(images/img03.gif) no-repeat;
+}
+
+#search fieldset {
+	border: none;
+}
+
+#search-text {
+	border: none;
+	background: none;
+	color: #333333;
+}
+
+#search-submit {
+}
+
+/* Menu */
+
+#menu {
+	background: #c9c9b9 url(images/img02l.gif) repeat-x;
+}
+
+#menu ul {
+}
+
+#menu li {
+}
+
+#menu a {
+	background: none;
+	color: #444444;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	color: #222222;
+}
+
+#menu a:hover {
+}
+
+#menu a#langselection {
+	color: #838484;
+}
+
+/* Page */
+
+#page {
+	background: #d9d9c9;
+}
+
+/* Content */
+
+#content {
+}
+
+#content.full {
+}
+
+.post {
+}
+
+
+.post .title {
+}
+
+.post .title a {
+	background: none;
+}
+
+.post .meta {
+	background: #c9c9b9;
+	border-top: 1px solid #b9b9a9;
+	border-bottom: 1px solid #b9b9a9;
+}
+
+.post .entry {
+}
+
+.post .official {
+	border: solid #898979 thin;
+}
+
+.post .official p {
+}
+
+.post address {
+	color: #444444;
+}
+
+.post .entry .imagecontainer {
+}
+
+.imagecontainer a {
+	background: none;
+	border: 0;
+}
+
+.imagecontainer img {
+	border: 0;
+	/*border: 1px solid #999;*/
+}
+
+.post .end {
+}
+
+.post ul, .post li {
+}
+
+/* Sidebar */
+
+#sidebar {
+	background: #c9c9b9;
+	border: 1px solid #b9b9a9;
+}
+
+#sidebar ul {
+}
+
+#sidebar li {
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+}
+
+#sidebar h2 {
+	background: #e9e9d9;
+}
+
+#sidebar p {
+}
+
+.hlimited {
+}
+
+#sidebar .exif, #sidebar .iptc {
+}
+
+#sidebar.detail .exif, #sidebar.detail .iptc {
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+}
+
+#calendar table {
+}
+
+#calendar tbody td {
+}
+
+#calendar #next {
+}
+
+/* Footer */
+
+#footer, #calibrate {
+	background: #c9c9b9;
+	border-top: 1px solid #b9b9a9;
+	border-bottom: 1px solid #b9b9a9;
+}
+
+#calibrate {
+    background: #b9b9a9;
+    border: solid #a9a999 1px;
+}
+
+#footer p, #calibrate p {
+}
+
+/* image info */
+.exif, .iptc, .exifdetails {
+}
+
+.exifdetails {
+}
+
+table {
+}
+
+table th, table td {
+    border-right: solid 1px #a9a999;
+    border-bottom: none 0px #b9b9a9;
+}
+
+table td.racetitle {
+    border-bottom: solid 1px #a9a999;
+    border-top: solid 1px #a9a999;
+    border-right: none;
+}
+
+table tr, table td, table th {
+}
+
+/* Lightbox */
+#outerImageContainer{
+    background: #e9e9d9 repeat-x;
+    color: #666666;
+}
+
+#imageDataContainer{
+    background: #e9e9d9;
+    color: #666666;
+}
+
+#imageData #bottomNavClose{ border: #a9a999; color: #444; background-color: #e9e9d9;  }	 	
+
+#overlay{ background-color: #ffffef; }
+

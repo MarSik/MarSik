@@ -1,0 +1,23 @@
+application: www-marsik-org-hrd
+version: 1
+runtime: python27
+threadsafe: yes
+api_version: 1
+
+handlers:
+- url: /
+  script: index.application
+- url: /contact.php
+  script: contact.application
+- url: /misc
+  static_dir: misc
+- url: /refs
+  static_dir: refs
+- url: /js
+  static_dir: js
+- url: /images
+  static_dir: images
+- url: /(.*)$
+  static_files: static/\1
+  upload: static/.*
+
