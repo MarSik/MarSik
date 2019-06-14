@@ -18,7 +18,7 @@ class ContactPage(webapp.RequestHandler):
         self.response.out.write(template.render(path, var))
 
     def get(self):
-        self.process("contact.html", {"error": ""})
+        self.process("templates/contact.html", {"error": ""})
 
     def post(self):
         sender = self.request.get("email")
@@ -57,7 +57,7 @@ class ContactPage(webapp.RequestHandler):
         args["error"] = "<br/>".join(args["error"])
 
         if error:
-            self.process("contact.html", args)
+            self.process("templates/contact.html", args)
             return
 
         try:
@@ -72,7 +72,7 @@ class ContactPage(webapp.RequestHandler):
             return
 
         self.response.headers['Content-Type'] = 'text/html'
-        self.process("contact.ok.html")        
+        self.process("templates/contact.ok.html")        
 
 application = webapp.WSGIApplication(
                                      [('/contact.php', ContactPage)],
