@@ -14,6 +14,7 @@ before_deploy:
   - cd public
 
 deploy:
+  skip_cleanup: true
   provider: gae
   keyfile: "../www-marsik-org-hrd-fc1bd1fdfce8.json"
   project: "www-marsik-org-hrd"
