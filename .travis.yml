@@ -1,5 +1,4 @@
 before_install:
-  - openssl aes-256-cbc -K $encrypted_2150b3b6230c_key -iv $encrypted_2150b3b6230c_iv -in www-marsik-org-hrd-fc1bd1fdfce8.json.enc -out www-marsik-org-hrd-fc1bd1fdfce8.json -d
 
 # Clean and don't fail
 install:
@@ -11,11 +10,12 @@ script:
   - hugo -v
 
 before_deploy:
+  - openssl aes-256-cbc -K $encrypted_2150b3b6230c_key -iv $encrypted_2150b3b6230c_iv -in www-marsik-org-hrd-fc1bd1fdfce8.json.enc -out www-marsik-org-hrd-fc1bd1fdfce8.json -d
   - cd public
 
 deploy:
   provider: gae
-  keyfile: "www-marsik-org-hrd-fc1bd1fdfce8.json"
+  keyfile: "../www-marsik-org-hrd-fc1bd1fdfce8.json"
   project: "www-marsik-org-hrd"
   
 
